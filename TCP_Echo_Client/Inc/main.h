@@ -62,9 +62,9 @@
 #define DEST_IP_ADDR0   (uint8_t) 192
 #define DEST_IP_ADDR1   (uint8_t) 168
 #define DEST_IP_ADDR2   (uint8_t) 1
-#define DEST_IP_ADDR3   (uint8_t) 105
+#define DEST_IP_ADDR3   (uint8_t) 0
 
-#define DEST_PORT       (uint16_t) 7
+#define DEST_PORT       (uint16_t) 4
  
 /*Static IP ADDRESS: IP_ADDR0.IP_ADDR1.IP_ADDR2.IP_ADDR3 */
 #define IP_ADDR0   (uint8_t) 192
@@ -82,7 +82,7 @@
 #define GW_ADDR0   (uint8_t) 192
 #define GW_ADDR1   (uint8_t) 168
 #define GW_ADDR2   (uint8_t) 1
-#define GW_ADDR3   (uint8_t) 254
+#define GW_ADDR3   (uint8_t) 255
 
 /* Exported macro ------------------------------------------------------------*/
 /* Exported functions ------------------------------------------------------- */
